@@ -1,11 +1,37 @@
+.dark-mode{
+  background-color: rgb(47, 47, 47);
+  color: white; 
+}
+
+.btn-mode {
+  float: right;
+  display: block;
+  text-align: center;
+  margin: 14px 16px;
+  padding: 0.3rem;
+  border-radius: 20px;
+  
+}
+
+.dark-mode textarea, .dark-mode textarea::placeholder {
+  background-color: rgb(47, 47, 47);
+  color: white;
+  
+}
+
+.dark-mode textarea{
+  border: 2px solid white;
+}
+
 nav ul {
     list-style-type: none;
+    position: relative;
     position: sticky;
     top: 0;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(170, 206, 238);
+    background-color: rgb(72, 164, 244);
   }
 
   nav .nav-brand {
@@ -45,6 +71,32 @@ nav ul {
     display: block;
     font-family: 'Kalam', cursive;
     font-size: large;
+}
+
+.btn-primary {
+  margin: 1rem;
+  margin-top: 0.5rem;
+  padding: auto;
+  border-radius: 10px;
+  background-color: rgb(251, 251, 119);
+}
+
+.passage-text-container {
+  padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.passage-text-container h2 {
+  margin-bottom: 1rem;
+} 
+
+.passage-text-container h3 {
+  margin-bottom: 1rem;
+}
+
+.passage-text-container p {
+  margin-top: 0.5rem;
 }
 
 

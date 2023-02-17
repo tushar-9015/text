@@ -1,4 +1,4 @@
-
+import React from "react"
 
 
 export default function NavBar(prop) {
@@ -11,6 +11,7 @@ export default function NavBar(prop) {
                 </li>
                 <li><a href="/">Home</a></li>
                 <li><a href="/">About</a></li>
+                <button className="btn-mode" onClick={() => prop.toggleDarkMode()}>Theme</button>
             </ul>
         </nav>
     )
